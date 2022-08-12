@@ -35,7 +35,7 @@ while True:
 
 
     cv2.imshow("Frame", frame)
-    # cv2.imshow("ROI", roi)
+    cv2.imshow("ROI", roi)
     cv2.imshow("Mask", mask)
 
     key = cv2.waitKey(30)
